@@ -1,0 +1,82 @@
+*{
+  box-sizing: border-box;
+}
+
+/*songs container*/
+.songsContainer{
+  display: flex;
+  justify-content: space-around;
+  row-gap: 30px;
+  flex-wrap: wrap;
+  padding: 10px 0 ;
+}
+
+
+/*Card containers*/
+.card{
+display: flex;
+position: relative;
+justify-content: flex-start;
+align-items: center;
+flex-direction: column;
+width: 300px;
+height: 450px;
+background-color: rgb(145, 146, 145);
+border-radius: 0 0 5% 5%;
+}
+
+.cardTextBox{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 10px;
+  padding: 30px 5px;
+}
+.cardImage{
+  min-height: 250px;
+  max-height: 250px;
+  height: 250px;
+  width: 100%;
+  object-fit: cover;
+}
+
+
+/*text*/
+h1{
+  color:rgb(120, 219, 133);
+  text-shadow: 1px 2px 10px rgb(0, 0, 0);
+  font-size: 70px;
+  margin: 50px 0;
+}
+h3{
+  font-size: 25px;
+}
+
+h4{
+  margin-top: 8px;
+  font-size: 20px;
+}
+
+h3, h4{
+  
+}
+/*button*/
+.btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #14a647;
+  color: rgb(0, 0, 0);
+  border-radius: 10px;
+  cursor: pointer;
+  text-decoration: none;
+  position: absolute;
+  width: 100px;
+  height: 30px;
+  bottom: 15px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+
+}
